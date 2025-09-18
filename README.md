@@ -33,6 +33,8 @@ For example, if you want to do counts-based statistics including these putative 
 
 This is because 1) this kind of pHMM mapping is substantially different from the counting/classification methods conventionally used and so the counts are not comparable on a technical level, and 2) this kind of mapping attempts to map _accross_ the Oblin-1 space (as described in the intial paper, newer pHMMs are now avaliable) and so you lose any kind "genus"/"species" level information, meaning your counts are likely not comparable on a biological level.
 
+Lastly, `ObCheck` does not prove or disprove the presence of Oblin-1 coding reads in your data - false positives are very possible, as are false negatives.
+
 # Installation / Usage
 
 create `mamba` environment
