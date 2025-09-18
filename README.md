@@ -1,7 +1,7 @@
 # `ObCheck`
 quick and crude reads to pHMM mapping tool to probe for potential Oblin-1 coding reads (suggestive of Obelisk presence)
 
-`ObCheck` is a script-afied (thanks `Claude`) version of the pHMM mapping that was done in the original [Obelisk discovery paper]([url](https://www.cell.com/cell/abstract/S0092-8674(24)01091-2))
+`ObCheck` is a script-afied (thanks `Claude`) version of the pHMM mapping that was done in the original [Obelisk discovery paper](https://www.cell.com/cell/abstract/S0092-8674(24)01091-2)
 
 This tool iterates over a set of directories, each containing paired-end reads with the naming convention: `$DIRNAME_[12].fastq.gz`
 
