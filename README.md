@@ -15,6 +15,8 @@ The resulting counts (and fractional counts) are written to a single `pHMM.count
 
 One can specify threads with `-t`
 
+THIS TOOL DOES NO READ QC, HAS A HARD CODED E-VAL THRESHOLD, USES THE OUT-OF-DATE pHMM, AND LIKELY HAS MANY OTHER ERRORS - USE WITH CAUTION AND WITH NO GUARANTEES OF FUNCTIONALITY
+
 # What is `ObCheck` for?
 
 `ObCheck` is for a crude first-pass to ask: _"might there be Oblin-1 coding reads (likely derived from Obelisks) in my sequencing data?"_
@@ -83,3 +85,7 @@ SRR29668077	0	877056	0
 SRR29668078	0	929365	0
 SRR29668079	0	922258	0
 ```
+
+# version
+
+as of 09/18/25 this is v0.0.1
