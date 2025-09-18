@@ -49,7 +49,7 @@ run
 
 `$REPOPATH/ObCheck/ObCheck.sh -t 32 -h $REPOPATH/ObCheck`
 
-example file structure (e.g. in `/test`)
+example file structure
 
 ```
 ├── SRR29668074
@@ -72,7 +72,7 @@ example file structure (e.g. in `/test`)
     └── SRR29668079_2.fastq.gz
 ```
 
-example output `.tsv` (based on data in `/test`)
+example output `.tsv`
 
 ```
 sample	Ob1	reads	Ob1_fxn
