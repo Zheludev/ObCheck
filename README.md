@@ -39,7 +39,7 @@ Lastly, `ObCheck` does not prove or disprove the presence of Oblin-1 coding read
 
 create `mamba` environment
 
-`mamba create -fy -n ObCheck -c bioconda eza tree seqkit hmmer pigz bc`
+`mamba create -fy -n ObCheck -c bioconda -c conda-forge eza tree seqkit hmmer pigz bc`
 
 `mamba activate ObCheck`
 
